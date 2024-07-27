@@ -34,6 +34,6 @@ $$d_{GH^0}(f,g) = \inf \\{ \Delta > 0 : \exists \Delta-isometry i : X \to Y and 
 
 ## References
 
-[1] A. Arbeito, C. A. Morales, *Topological stability from Gromov-Hausdorff viewpoint*, Discrete Contin. Dyn. Syst. 37 (2017), no. 7, 3531–3544.
+[1] A. Arbeito, C. A. Morales, *Topological stability from Gromov-Hausdorff viewpoint*, Discrete and Continuous Dynamical Systems 37 (2017), no. 7, 3531–3544.
 
 [2] M. Gromov, *Metric Structures for Riemannian and Non-Riemannian Spaces*, Based on the 1981 French original. With appendices by M. Katz, P. Pansu and S. Semmes. Translated from the French by Sean Michael Bates. Progress in Mathematics, 152. Birkhäuser Boston, Inc. , Boston, MA, 1999.
