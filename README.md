@@ -1,6 +1,8 @@
 # C0_Gromov_Hausdorff_distance
 
-This is an introduction to the $C^0$-Gromov-Hausdorff distance for compact metric spaces [1]. It studies finite metric spaces from an approximation perspective and discusses its application to neural networks, which can be found in the submitted paper.
+This repository is the official implementation of in the submitted paper "Approximating real functions with varying domain".
+
+The purpose of README.md is to introduce the original concept of OO.This is an introduction to the $C^0$-Gromov-Hausdorff distance for compact metric spaces [1]. It studies finite metric spaces from an approximation perspective and discusses its application to neural networks, which can be found in the submitted paper.
 
 
 One of motivation behind this work [1] is to provide an understanding of the classical Gromov-Hausdorff metric [2] by extending it to maps between metric spaces. The following definition of Gromov-Hausdorff distance which is equivalent to the approach in [2].
