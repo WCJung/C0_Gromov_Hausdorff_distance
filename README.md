@@ -1,18 +1,16 @@
 # C0_Gromov_Hausdorff_distance
 
-In paper [1], they have motivation behind this work is to provide an understanding of the classical Gromov-Hausdorff metric [2] by extending it to maps between metric spaces. Second, they wish to highlight some fundamental aspects of research that are often overlooked in dynamics: the analysis of long-time behavior through Walter's concept of topological stability [3]. Indeed, they proposed to combine the Gromov-Hausdorff metric with the standard distance between maps of metric spaces and studied topological GH-stability inspired by the Walters' topological stability.
-
-First, the following definition of Gromov-Hausdorff distance from [1], which is equivalent to the approach in [2].
+In paper [1], one of motivation behind this work is to provide an understanding of the classical Gromov-Hausdorff metric [2] by extending it to maps between metric spaces. First, the following definition of Gromov-Hausdorff distance from [1], which is equivalent to the approach in [2].
 
 Consider a metric space $X$, given $A,B \subset X$ we define the hausdorff distance between $A$ and $B$.
 
-$$d_H(A,B) = \max \{ \sup_{a \in A} d(a,B), \sup_{b \in B} d(A,b)\}.$$
+$$d_H(A,B) = \max { \sup_{a \in A} d(a,B), \sup_{b \in B} d(A,b) }.$$
 
 An isometry between the metric spaces $X$ and $Y$ is an onto map $i : X \to Y$ satisfying $d(i(x),i(x')) = d(x,x')$ for every $x, x' \in X$, We say that $X$ and $Y$ are isometric if such an isometry exists.
 
-Given $Delta >0$, a (noncecessarily continuous and onto) map $i : X \to Y$ between the metric space $X$ and $Y$ is called $\Delta-isometry$ if
+Given $\Delta >0$, a (noncecessarily continuous and onto) map $i : X \to Y$ between the metric space $X$ and $Y$ is called $\Delta-isometry$ if
 
-$$123$$
+$$ \max { d_H(i(X),Y), \sup_{x, x' \in X} |d(f(x),f(x') - d(x,x')| } < \Delta.$$
 
 
 
