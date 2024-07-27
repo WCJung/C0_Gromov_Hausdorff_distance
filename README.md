@@ -19,7 +19,7 @@ $$ \max \\{ d_H(i(X),Y), \sup_{x, x' \in X} |d(f(x),f(x') - d(x,x')| \\} < \Delt
 
 The Gromov-Hausorff distance between the metric spaces $X$ and $Y$ is defined by
 
-$$d_{GH}(X,Y) = \inf \\{ \Delta > 0 : \exists \Delta-isometry \: i : X \to Y and j : Y \to X   \\} . $$
+$$d_{GH}(X,Y) = \inf \\{ \Delta > 0 : \exists \Delta-isometry \ \  i : X \to Y  \ \ and  \ \ j : Y \to X   \\}. $$
 
 Here, we recall the classical $C^0$ distance between the maps $f : X \to X$ and $g : X \to X$ of the same metric space $X$ defined by
 
@@ -27,7 +27,7 @@ $d_{C^0}(f,g) = \sup_{x \in X} d(f(x),g(x))$.
 
 A slight modification of the Gromov-Hausdorff distance including the $C^0$ distance above yields the following definition. We define the $C^0$-Gromov-Hausdorff distance between maps $f:X \to X$ and $g :Y \to Y$ of the metric spaces $X$ and $Y$, respectively.
 
-$$d_{GH^0}(f,g) = \inf \\{ \Delta > 0 : \exists \Delta-isometry \ i : X \to Y \ and \ j : Y \to X \ such \ that \ d_{C^0}(g \circ i, i \circ f) \ and \ d_{C^0}(j \circ g, f \circ j) \\}. $$
+$$d_{GH^0}(f,g) = \inf \\{ \Delta > 0 : \exists \Delta-isometry \ \ i : X \to Y \ \ and \ \ j : Y \to X \ \ such \ that \ \ d_{C^0}(g \circ i, i \circ f) \ \ and \ \  d_{C^0}(j \circ g, f \circ j) \\}. $$
 
 
 
