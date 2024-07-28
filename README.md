@@ -27,7 +27,7 @@ $d_{C^0}(f,g) = \sup_{x \in X} d(f(x),g(x))$.
 
 A slight modification of the Gromov-Hausdorff distance including the $C^0$ distance above yields the following definition. We define the $C^0$-Gromov-Hausdorff distance between maps $f:X \to X$ and $g :Y \to Y$ of the metric spaces $X$ and $Y$, respectively.
 
-$$d_{GH^0}(f,g) = \inf \\{ \Delta > 0 : \exists \Delta-isometry \ \ i : X \to Y \ \ and \ \ j : Y \to X \ \ such \ that \ \ d_{C^0}(g \circ i, i \circ f) \ \ and \ \  d_{C^0}(j \circ g, f \circ j) \\}. $$
+$$d_{GH^0}(f,g) = \inf \\{ \Delta > 0 : \exists \Delta-isometry \ \ i : X \to Y \ \ and \ \ j : Y \to X \ \ such \ that \ \ d_{C^0}(g \circ i, i \circ f) < \Delta \ \ and \ \  d_{C^0}(j \circ g, f \circ j) < \Delta \\}. $$
 
 
 
