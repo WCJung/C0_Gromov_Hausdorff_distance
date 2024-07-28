@@ -22,7 +22,7 @@ $$d_{GH}(X,Y) = \inf \\{ \Delta > 0 : \exists \Delta-isometry \ \  i : X \to Y  
 
 Here, we recall the classical $C^0$ distance between the maps $f : X \to X$ and $g : X \to X$ of the same metric space $X$ defined by
 
-$$d_{C^0}(f,g) = \sup_{x \in X} d(f(x),g(x))$$.
+$$d_{C^0}(f,g) = \sup_{x \in X} d(f(x),g(x)).$$
 
 A slight modification of the Gromov-Hausdorff distance including the $C^0$ distance above yields the following definition. We define the $C^0$-Gromov-Hausdorff distance between maps $f:X \to X$ and $g :Y \to Y$ of the metric spaces $X$ and $Y$, respectively.
 
