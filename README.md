@@ -1,6 +1,6 @@
-# C0_Gromov_Hausdorff_distance
+% C0_Gromov_Hausdorff_distance
 
-# This repository is the official implementation of in the submitted paper "Approximating real functions with varying domain".
+% This repository is the official implementation of in the submitted paper "Approximating real functions with varying domain".
 
 The purpose of README.md is to introduce the original concept of the $C^0$-Gromov-Hausdorff distance for compact metric spaces [1]. We study on finite metric spaces from an approximation perspective and discuss its application to neural networks, which can be found in the submitted paper.
 
