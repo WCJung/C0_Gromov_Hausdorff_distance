@@ -36,6 +36,6 @@ The code is developed based on [3,4,5] and it will be opened soon.
 
 [3] A. A. Taha, A. Hanbury, An efficient algorithm for calculating the exact Hausdorff distance, IEEE transactions on pattern analysis and machine intelligence, 37:11, 2153--2163, 2015.
 
-[4] V. Oles, (2023). Computing the Gromov–Hausdorff distance using gradient methods. arXiv preprint arXiv:2307.13660.
+[4] V. Oles, Computing the Gromov–Hausdorff distance using gradient methods. arXiv preprint arXiv:2307.13660, 2023.
 
 [5] R. Flamary, et al., POT Python Optimal Transport (version 0.9.5), https://github.com/PythonOT/POT, 2024.
