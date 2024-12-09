@@ -5,7 +5,7 @@ One of motivation behind this work [1] is to provide an understanding of the cla
 
 Consider a metric space $X$, given $A,B \subset X$ we define the hausdorff distance between $A$ and $B$.
 
-$$d_H(A,B) = \max \\{ \sup_{a \in A} d(a,B), \sup_{b \in B} d(A,b) \\}.$$
+$$d_H(A,B) = \max \\{\sup_{a \in A} d(a,B), \sup_{b \in B} d(A,b) \\}.$$
 
 An isometry between the metric spaces $X$ and $Y$ is an onto map $i : X \to Y$ satisfying $d(i(x),i(x')) = d(x,x')$ for every $x, x' \in X$, We say that $X$ and $Y$ are isometric if such an isometry exists.
 
