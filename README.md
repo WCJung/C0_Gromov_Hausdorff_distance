@@ -1,6 +1,6 @@
 # C0_Gromov_Hausdorff_distance
 
-This repository is the official implementation of in the submitted paper "Approximating real functions with varying domain".
+# This repository is the official implementation of in the submitted paper "Approximating real functions with varying domain".
 
 The purpose of README.md is to introduce the original concept of the $C^0$-Gromov-Hausdorff distance for compact metric spaces [1]. We study on finite metric spaces from an approximation perspective and discuss its application to neural networks, which can be found in the submitted paper.
 
@@ -28,9 +28,17 @@ A slight modification of the Gromov-Hausdorff distance including the $C^0$ dista
 
 $$d_{GH^0}(f,g) = \inf \\{ \Delta > 0 : \exists \Delta-isometry \ \ i : X \to Y \ \ and \ \ j : Y \to X \ \ such \ that \ \ d_{C^0}(g \circ i, i \circ f) < \Delta \ \ and \ \  d_{C^0}(j \circ g, f \circ j) < \Delta \\}. $$
 
+The code is developed based on [3,4,5] and it will be opened soon.
+
 
 ## References
 
 [1] A. Arbeito, C. A. Morales, *Topological stability from Gromov-Hausdorff viewpoint*, Discrete and Continuous Dynamical Systems 37 (2017), no. 7, 3531–3544.
 
 [2] M. Gromov, *Metric Structures for Riemannian and Non-Riemannian Spaces*, Based on the 1981 French original. With appendices by M. Katz, P. Pansu and S. Semmes. Translated from the French by Sean Michael Bates. Progress in Mathematics, 152. Birkhäuser Boston, Inc. , Boston, MA, 1999.
+
+[3] A. A. Taha, A. Hanbury, An efficient algorithm for calculating the exact Hausdorff distance, IEEE transactions on pattern analysis and machine intelligence, 37:11, 2153--2163, 2015.
+
+[4] V. Oles, (2023). Computing the Gromov–Hausdorff distance using gradient methods. arXiv preprint arXiv:2307.13660.
+
+[5] R. Flamary, et al., POT Python Optimal Transport (version 0.9.5), https://github.com/PythonOT/POT, 2024.
